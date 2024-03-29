@@ -19,6 +19,8 @@ This script is designed to extract and analyze stock information using the IEX C
  Replace YOUR_TOKEN with your IEX Cloud token, OUTPUT_FILE_NAME with the desired output file name (optional), 
  and 0/1 with whether to use strict OBI criteria (cash_flow + (receivables * 0.75) + (inventory * 0.5), (optional, default is     False).<br /><br />
 
+3. After running the script, the output will be saved to an Excel file named OUTPUT_FILE_NAME_<current_date>.xlsx. This file will contain comprehensive information about the stocks retrieved.
+
 
 ## Acknowledgments
 This script utilizes the library [iexfinance](https://github.com/addisonlynch/iexfinance?tab=readme-ov-file) for interacting with the [IEX Cloud API](https://iexcloud.io/) for financial data extraction.
