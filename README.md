@@ -1,7 +1,7 @@
 # stock-info-extractor
 
 ## Overview
-This trading script is designed to extract and analyze stock information using the IEX Cloud API. It provides functionalities to fetch key statistics, financials, and other relevant data for the tickers available from IEX Cloud API. The script calculates a Net Net Score for each stock and identifies potentially undervalued stocks based on the Net Net Score and PE.
+This script is designed to extract and analyze stock information using the IEX Cloud API. It provides functionalities to fetch key statistics, financials, and other relevant data for the tickers available from IEX Cloud API. The script calculates a Net Net Score for each stock and identifies potentially undervalued stocks based on the Net Net Score and PE.
 
 ## Prerequisites
 -Python 3.x <br />
