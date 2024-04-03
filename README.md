@@ -14,7 +14,7 @@ This script is designed to extract and analyze stock information using the IEX C
 1. Obtain an IEX Cloud token from IEX Cloud.
 2. Run the script with the following command: <br /><br />
    ```bash
-   python stock_info_extractor.py -iex-token YOUR_TOKEN -output OUTPUT_FILE_NAME -OBI-strict 0/1
+   python extract_stock_info.py -iex-token YOUR_TOKEN -output OUTPUT_FILE_NAME -OBI-strict 0/1
 <br />
  Replace YOUR_TOKEN with your IEX Cloud token, OUTPUT_FILE_NAME with the desired output file name (optional), 
  and 0/1 with whether to use strict OBI criteria (cash_flow + (receivables * 0.75) + (inventory * 0.5), (optional, default is     False).<br /><br />
